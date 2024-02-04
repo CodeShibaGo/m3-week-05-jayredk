@@ -8,7 +8,9 @@
 Answer
 
 ```sql
-/* SOME SQL STATEMENT  */
+SELECT lastname, firstname, jobtitle
+FROM employees
+  WHERE jobtitle = 'Sales Rep'
 ```
 
 Output
