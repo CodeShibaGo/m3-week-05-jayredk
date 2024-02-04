@@ -47,7 +47,9 @@ Output
 Answer
 
 ```sql
-/* SOME SQL STATEMENT  */
+SELECT lastname, firstname, jobtitle, officeCode
+FROM employees
+  WHERE jobtitle = 'Sales Rep' AND officeCode = '1'
 ```
 
 Output
