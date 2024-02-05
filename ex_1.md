@@ -257,7 +257,9 @@ Output
 Answer
 
 ```sql
-/* SOME SQL STATEMENT  */
+SELECT customerName, country, state, creditLimit
+FROM customers
+WHERE creditLimit > 100000 AND state = 'CA'
 ```
 
 Output
