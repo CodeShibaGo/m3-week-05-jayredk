@@ -282,7 +282,9 @@ Output
 Answer
 
 ```sql
-/* SOME SQL STATEMENT  */
+SELECT officeCode, city, phone, country
+FROM offices
+WHERE country = 'USA' OR country = 'France'
 ```
 
 Output
