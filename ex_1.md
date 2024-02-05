@@ -189,7 +189,9 @@ Output
 Answer
 
 ```sql
-/* SOME SQL STATEMENT  */
+SELECT DISTINCT lastName
+FROM employees
+ORDER BY lastName ASC
 ```
 
 Output
