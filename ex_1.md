@@ -224,7 +224,9 @@ Output
 Answer
 
 ```sql
-/* SOME SQL STATEMENT  */
+SELECT customerName, country, state
+FROM customers
+WHERE state = 'CA'
 ```
 
 Output
