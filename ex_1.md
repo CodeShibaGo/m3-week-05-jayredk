@@ -164,7 +164,9 @@ Output
 Answer
 
 ```sql
-/* SOME SQL STATEMENT  */
+SELECT lastName, firstName, jobTitle, officeCode
+FROM employees
+WHERE jobTitle = 'Sales Rep' AND officeCode = 1
 ```
 
 Output
