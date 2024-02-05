@@ -104,7 +104,9 @@ Output
 Answer
 
 ```sql
-/* SOME SQL STATEMENT  */
+SELECT contactLastName, contactFirstName
+FROM customers
+ORDER BY contactLastName DESC, customerNumber ASC
 ```
 
 Output
