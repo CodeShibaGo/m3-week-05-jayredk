@@ -135,7 +135,9 @@ Output
 Answer
 
 ```sql
-/* SOME SQL STATEMENT  */
+SELECT lastName, firstName, officeCode
+FROM employees
+WHERE officeCode = 6 OR officeCode = 7
 ```
 
 Output
