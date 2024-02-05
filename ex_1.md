@@ -71,7 +71,9 @@ Output
 Answer
 
 ```sql
-/* SOME SQL STATEMENT  */
+SELECT firstname, lastname, officeCode
+FROM employees
+	WHERE officeCode <= 3 AND officeCode >= 1
 ```
 
 Output
