@@ -31,7 +31,8 @@ Output
 Answer
 
 ```sql
-/* SOME SQL STATEMENT  */
+SELECT member_id, members.name AS member, committee_id, committees.name AS committee
+FROM members LEFT JOIN committees ON (members.name = committees.name)
 ```
 
 Output
